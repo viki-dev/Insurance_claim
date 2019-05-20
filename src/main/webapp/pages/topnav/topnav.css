@@ -1,0 +1,7 @@
+.wm-app .nav-bar
+{
+   box-shadow: 0px 2px 5px #828282;
+ 
+    border-width:1px;
+    z-index:5;
+}

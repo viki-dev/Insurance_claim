@@ -1,19 +1,19 @@
 <wm-partial name="topnav" type="topnav">
-    <wm-navbar>
+    <wm-navbar name="navbar1" backgroundcolor="#f8f8f8" class="nav-bar" backgroundattachment="fixed">
         <wm-nav name="leftTopLinks" type="navbar" class="navbar-left">
-            <wm-nav-item name="list_home">
-                <wm-anchor caption="Home" name="homeLink" iconclass="wi wi-home" on-click="Actions.goToPage_Main.invoke()"></wm-anchor>
-            </wm-nav-item>
-            <wm-nav-item name="list_services">
-                <wm-anchor caption="Order" name="orderLink" iconclass="wi wi-list"></wm-anchor>
+            <wm-nav-item name="nav_item1">
+                <wm-picture name="picture1" width="50%"></wm-picture>
             </wm-nav-item>
         </wm-nav>
         <wm-nav name="rightTopLinks" type="navbar" class="navbar-right">
-            <wm-nav-item name="list_help">
-                <wm-anchor caption="Help" name="helpLink" iconclass="wi wi-help-outline"></wm-anchor>
+            <wm-nav-item name="list_home">
+                <wm-anchor caption="Home" name="homeLink" iconclass="wi wi-home" on-click="Actions.goToPage_Main.invoke()" color="#3d3c3c"></wm-anchor>
             </wm-nav-item>
-            <wm-nav-item name="list_logout">
-                <wm-anchor caption="Logout" name="logoutLink" iconclass="wi wi-sign-out" on-click="Actions.logoutAction.invoke()"></wm-anchor>
+            <wm-nav-item name="list_services">
+                <wm-anchor caption="About" name="orderLink" iconclass="wi wi-list" color="#3d3b3b"></wm-anchor>
+            </wm-nav-item>
+            <wm-nav-item name="nav_item4">
+                <wm-anchor caption="Logout" name="logoutLink" iconclass="wi wi-sign-out" on-click="Actions.logoutAction.invoke()" color="#3b3b3b"></wm-anchor>
             </wm-nav-item>
         </wm-nav>
     </wm-navbar>
